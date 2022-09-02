@@ -1,0 +1,106 @@
+.footer-mainDiv {
+    background: linear-gradient(42deg, rgba(17, 17, 17, 1) 0%, rgba(51, 51, 51, 1) 100%);
+}
+
+.footer-subdiv1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+    color: var(--french-rose);
+
+}
+
+.footer-subdiv1 p {
+    padding-top: 10px;
+    cursor: pointer;
+}
+.Link{
+    text-decoration: none;
+    outline: none;
+    padding-top: 10px;
+    cursor: pointer;
+    color: var(--french-rose);
+
+}
+
+.footer-subdiv1 button {
+    background-color: var(--french-rose);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 18px;
+    color: var(--white);
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.footer-subdiv2 {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.footer-subdiv2 p {
+    color: var(--flickr-blue);
+    padding-top: 10px;
+
+}
+
+.footer-subdiv2 img {
+    padding: 0 10px;
+    cursor: pointer;
+
+}
+
+.footer-icons {
+    padding-left: 50px;
+}
+
+.footer-subdiv1 button:hover {
+    background-color: var(--french-purple);
+}
+.footer-subdiv1 p:hover{
+  color: var(--french-purple);
+
+
+}
+
+@media screen and (max-width: 4000px) {
+    .footer-copywrite p {
+        font-size: 18px;
+    }
+
+}
+@media screen and (max-width: 1500px) {
+    .footer-copywrite p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .footer-subdiv1 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:790px) {
+    .footer-subdiv2 {
+        font-size: 10px;
+        justify-content: space-around;
+    }
+
+    .footer-icons {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .footer-icons {
+
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+    }
+}

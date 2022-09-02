@@ -1,0 +1,58 @@
+.post-div {
+    margin: 0px 50px;
+    padding: 10px;
+
+}
+
+.post-div hr {
+    height: 1px;
+    background-color: var(--french-rose);
+    border: none;
+}
+
+.post-div div {
+    padding: 30px 0;
+}
+
+.date {
+    font-size: 25px;
+    color: var(--french-rose);
+    margin-top: 50px;
+}
+
+.speaker p {
+    color: var(--flickr-blue);
+}
+
+.name {
+    color: var(--french-purple) !important;
+    margin-bottom: 5px;
+}
+
+.time {
+    color: var(--french-rose) !important;
+    margin-top: 10px;
+    text-align: right;
+
+}
+
+@media screen and (max-width: 700px) {
+    .post-div {
+        margin: 0px 30px;
+        padding: 10px;
+    }
+
+    .date {
+        font-size: 18px !important;
+    }
+
+    .time {
+        font-size: 15px !important;
+
+    }
+
+    .speaker p {
+        font-size: 14px;
+    }
+
+}

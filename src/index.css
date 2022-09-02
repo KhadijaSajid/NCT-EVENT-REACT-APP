@@ -1,0 +1,13 @@
+:root{
+  --font-family: 'Manrope', sans-serif;
+  --black: #000000ff;
+  --rich-black-fogra-39: #111111ff;
+
+  --jet: #333333ff;
+  --jetDark: rgb(31, 30, 30);
+  --white: #ffffffff;
+  --flickr-blue: rgb(25, 68, 121);
+  --french-rose: #ea558dff;
+  --french-purple: rgb(156, 60, 211);
+
+}
